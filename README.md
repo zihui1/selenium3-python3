@@ -1,0 +1,9 @@
+# python3-selenium3自动化UI测试框架
+
+本项目为数据驱动和关键字驱动混合式框架
+
+只需要修改testData包下的xlsx文件就能实现自动化测试
+
+也接入了log和异常截图功能后期可以自行加入unittest
+
+RunTest.py为入口

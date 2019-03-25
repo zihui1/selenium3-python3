@@ -1,0 +1,809 @@
+2019-03-24 16:23:57,297 - root - INFO - ----------登录
+2019-03-24 16:23:57,297 - root - INFO - *************调用关键字驱动****************
+2019-03-24 16:23:57,297 - root - INFO - 测试用例工12步
+2019-03-24 16:23:59,641 - root - INFO - 执行步骤打开浏览器成功
+2019-03-24 16:24:00,108 - root - INFO - 执行步骤访问被测试网址http://www.163.com成功
+2019-03-24 16:24:01,271 - root - INFO - 执行步骤最大化窗口成功
+2019-03-24 16:24:06,325 - root - INFO - 执行步骤等待163邮箱登录主页加载完成成功
+2019-03-24 16:24:06,400 - root - INFO - 执行步骤显示等待id属性值为x-URS-iframe的frame框的出现，然后切换进入该frame框中成功
+2019-03-24 16:24:06,511 - root - INFO - 执行步骤输入登录用户名成功
+2019-03-24 16:24:06,643 - root - INFO - 执行步骤输入登录密码成功
+2019-03-24 16:24:06,777 - root - INFO - 执行步骤单击登录按钮成功
+2019-03-24 16:24:11,828 - root - INFO - 执行步骤等待163邮箱登录主页加载完成成功
+2019-03-24 16:24:11,907 - root - INFO - 执行步骤切回默认会话窗口成功
+2019-03-24 16:24:12,629 - root - INFO - 执行步骤断言登录成功后的页面标题是否包含“网易邮箱6.0版”关键字内容成功
+2019-03-24 16:24:12,679 - root - INFO - 用例登录163邮箱执行通过
+2019-03-24 16:24:12,720 - root - INFO - ----------创建联系人
+2019-03-24 16:24:12,720 - root - INFO - ***********调用数据驱动************
+2019-03-24 16:24:12,721 - root - INFO - 出现异常Traceback (most recent call last):
+  File "F:\code\python\KeyWordAndDataDrivenFrameWork\testScripts\TestSendMailAndCreateContacts.py", line 41, in TestSendMailAndCreateContacts
+    result = CreateContacts.dataDriverFun(dataSheetObj,stepSheetObj)
+  File "F:\code\python\KeyWordAndDataDrivenFrameWork\testScripts\CreateContacts.py", line 93, in dataDriverFun
+    raise e
+  File "F:\code\python\KeyWordAndDataDrivenFrameWork\testScripts\CreateContacts.py", line 9, in dataDriverFun
+    dataSourceSheetObj,dataSource_isExecute)
+  File "F:\code\python\KeyWordAndDataDrivenFrameWork\util\ParseExcel.py", line 70, in getColumn
+    raise e
+  File "F:\code\python\KeyWordAndDataDrivenFrameWork\util\ParseExcel.py", line 68, in getColumn
+    return list(sheet.columns)[colNo -1]
+IndexError: list index out of range
+
+2019-03-24 16:39:05,772 - root - INFO - ----------登录
+2019-03-24 16:39:05,772 - root - INFO - *************调用关键字驱动****************
+2019-03-24 16:39:05,772 - root - INFO - 测试用例工12步
+2019-03-24 16:39:08,102 - root - INFO - 执行步骤打开浏览器成功
+2019-03-24 16:39:09,010 - root - INFO - 执行步骤访问被测试网址http://www.163.com成功
+2019-03-24 16:39:10,183 - root - INFO - 执行步骤最大化窗口成功
+2019-03-24 16:39:15,297 - root - INFO - 执行步骤等待163邮箱登录主页加载完成成功
+2019-03-24 16:39:15,375 - root - INFO - 执行步骤显示等待id属性值为x-URS-iframe的frame框的出现，然后切换进入该frame框中成功
+2019-03-24 16:39:15,546 - root - INFO - 执行步骤输入登录用户名成功
+2019-03-24 16:39:15,663 - root - INFO - 执行步骤输入登录密码成功
+2019-03-24 16:39:15,839 - root - INFO - 执行步骤单击登录按钮成功
+2019-03-24 16:39:20,883 - root - INFO - 执行步骤等待163邮箱登录主页加载完成成功
+2019-03-24 16:39:20,956 - root - INFO - 执行步骤切回默认会话窗口成功
+2019-03-24 16:39:21,511 - root - INFO - 执行步骤断言登录成功后的页面标题是否包含“网易邮箱6.0版”关键字内容成功
+2019-03-24 16:39:21,568 - root - INFO - 用例登录163邮箱执行通过
+2019-03-24 16:39:21,623 - root - INFO - ----------创建联系人
+2019-03-24 16:39:21,623 - root - INFO - ***********调用数据驱动************
+2019-03-24 16:39:21,625 - root - INFO - 出现异常Traceback (most recent call last):
+  File "F:\code\python\KeyWordAndDataDrivenFrameWork\testScripts\TestSendMailAndCreateContacts.py", line 41, in TestSendMailAndCreateContacts
+    result = CreateContacts.dataDriverFun(dataSheetObj,stepSheetObj)
+  File "F:\code\python\KeyWordAndDataDrivenFrameWork\testScripts\CreateContacts.py", line 93, in dataDriverFun
+    raise e
+  File "F:\code\python\KeyWordAndDataDrivenFrameWork\testScripts\CreateContacts.py", line 22, in dataDriverFun
+    log(u'开始添加联系人%s'%(emailColumn[idx+1].value))
+TypeError: 'Log' object is not callable
+
+2019-03-24 16:40:42,416 - root - INFO - ----------登录
+2019-03-24 16:40:42,416 - root - INFO - *************调用关键字驱动****************
+2019-03-24 16:40:42,416 - root - INFO - 测试用例工12步
+2019-03-24 16:40:44,686 - root - INFO - 执行步骤打开浏览器成功
+2019-03-24 16:40:45,176 - root - INFO - 执行步骤访问被测试网址http://www.163.com成功
+2019-03-24 16:40:46,375 - root - INFO - 执行步骤最大化窗口成功
+2019-03-24 16:40:51,458 - root - INFO - 执行步骤等待163邮箱登录主页加载完成成功
+2019-03-24 16:40:51,568 - root - INFO - 执行步骤显示等待id属性值为x-URS-iframe的frame框的出现，然后切换进入该frame框中成功
+2019-03-24 16:40:51,708 - root - INFO - 执行步骤输入登录用户名成功
+2019-03-24 16:40:51,822 - root - INFO - 执行步骤输入登录密码成功
+2019-03-24 16:40:51,975 - root - INFO - 执行步骤单击登录按钮成功
+2019-03-24 16:40:57,035 - root - INFO - 执行步骤等待163邮箱登录主页加载完成成功
+2019-03-24 16:40:57,718 - root - INFO - 执行步骤切回默认会话窗口成功
+2019-03-24 16:40:57,783 - root - INFO - 执行步骤断言登录成功后的页面标题是否包含“网易邮箱6.0版”关键字内容成功
+2019-03-24 16:40:57,833 - root - INFO - 用例登录163邮箱执行通过
+2019-03-24 16:40:57,884 - root - INFO - ----------创建联系人
+2019-03-24 16:40:57,884 - root - INFO - ***********调用数据驱动************
+2019-03-24 16:40:57,885 - root - INFO - 开始添加联系人602208333@qq.com
+2019-03-24 16:40:57,886 - root - INFO - 出现异常Traceback (most recent call last):
+  File "F:\code\python\KeyWordAndDataDrivenFrameWork\testScripts\TestSendMailAndCreateContacts.py", line 41, in TestSendMailAndCreateContacts
+    result = CreateContacts.dataDriverFun(dataSheetObj,stepSheetObj)
+  File "F:\code\python\KeyWordAndDataDrivenFrameWork\testScripts\CreateContacts.py", line 93, in dataDriverFun
+    raise e
+  File "F:\code\python\KeyWordAndDataDrivenFrameWork\testScripts\CreateContacts.py", line 32, in dataDriverFun
+    locationType = rowObj[locationType -1].value
+UnboundLocalError: local variable 'locationType' referenced before assignment
+
+2019-03-24 16:42:13,244 - root - INFO - ----------登录
+2019-03-24 16:42:13,244 - root - INFO - *************调用关键字驱动****************
+2019-03-24 16:42:13,244 - root - INFO - 测试用例工12步
+2019-03-24 16:42:15,532 - root - INFO - 执行步骤打开浏览器成功
+2019-03-24 16:42:16,005 - root - INFO - 执行步骤访问被测试网址http://www.163.com成功
+2019-03-24 16:42:17,183 - root - INFO - 执行步骤最大化窗口成功
+2019-03-24 16:42:22,266 - root - INFO - 执行步骤等待163邮箱登录主页加载完成成功
+2019-03-24 16:42:22,345 - root - INFO - 执行步骤显示等待id属性值为x-URS-iframe的frame框的出现，然后切换进入该frame框中成功
+2019-03-24 16:42:22,459 - root - INFO - 执行步骤输入登录用户名成功
+2019-03-24 16:42:22,589 - root - INFO - 执行步骤输入登录密码成功
+2019-03-24 16:42:22,733 - root - INFO - 执行步骤单击登录按钮成功
+2019-03-24 16:42:27,794 - root - INFO - 执行步骤等待163邮箱登录主页加载完成成功
+2019-03-24 16:42:28,294 - root - INFO - 执行步骤切回默认会话窗口成功
+2019-03-24 16:42:28,357 - root - INFO - 执行步骤断言登录成功后的页面标题是否包含“网易邮箱6.0版”关键字内容成功
+2019-03-24 16:42:28,407 - root - INFO - 用例登录163邮箱执行通过
+2019-03-24 16:42:28,460 - root - INFO - ----------创建联系人
+2019-03-24 16:42:28,460 - root - INFO - ***********调用数据驱动************
+2019-03-24 16:42:28,461 - root - INFO - 开始添加联系人602208333@qq.com
+2019-03-24 16:42:29,174 - root - INFO - 开始添加联系人602208333@qq.com
+2019-03-24 16:42:30,079 - root - INFO - 用例添加联系人执行失败
+2019-03-24 16:42:30,157 - root - INFO - 共2条用例，2条需要被执行，成功执行1条
+2019-03-24 16:47:25,244 - root - INFO - ----------登录
+2019-03-24 16:47:25,244 - root - INFO - *************调用关键字驱动****************
+2019-03-24 16:47:25,244 - root - INFO - 测试用例工12步
+2019-03-24 16:47:27,543 - root - INFO - 执行步骤打开浏览器成功
+2019-03-24 16:47:27,551 - root - INFO - 出现异常Traceback (most recent call last):
+  File "F:\code\python\KeyWordAndDataDrivenFrameWork\testScripts\WriteTestResult.py", line 21, in writeTestResult
+    style=colorDict[testResult])
+  File "F:\code\python\KeyWordAndDataDrivenFrameWork\util\ParseExcel.py", line 126, in writeCell
+    raise e
+  File "F:\code\python\KeyWordAndDataDrivenFrameWork\util\ParseExcel.py", line 124, in writeCell
+    self.workbook.save(self.excelFile)
+  File "C:\Users\mrwang\venv\lib\site-packages\openpyxl\workbook\workbook.py", line 396, in save
+    save_workbook(self, filename)
+  File "C:\Users\mrwang\venv\lib\site-packages\openpyxl\writer\excel.py", line 292, in save_workbook
+    archive = ZipFile(filename, 'w', ZIP_DEFLATED, allowZip64=True)
+  File "C:\Program Files\Python37\lib\zipfile.py", line 1204, in __init__
+    self.fp = io.open(file, filemode)
+PermissionError: [Errno 13] Permission denied: 'F:\\code\\python\\KeyWordAndDataDrivenFrameWork\\testData\\163邮箱创建联系人并发邮件.xlsx'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\code\python\KeyWordAndDataDrivenFrameWork\testScripts\TestSendMailAndCreateContacts.py", line 103, in TestSendMailAndCreateContacts
+    writeTestResult(caseStepObj,rowNo=index,colsNo="caseStep",testResult="pass")
+  File "F:\code\python\KeyWordAndDataDrivenFrameWork\testScripts\WriteTestResult.py", line 41, in writeTestResult
+    log.error(u'写excel时发生异常'+traceback.print_exc())
+TypeError: can only concatenate str (not "NoneType") to str
+
+2019-03-24 16:47:46,828 - root - INFO - ----------登录
+2019-03-24 16:47:46,828 - root - INFO - *************调用关键字驱动****************
+2019-03-24 16:47:46,828 - root - INFO - 测试用例工12步
+2019-03-24 16:47:49,141 - root - INFO - 执行步骤打开浏览器成功
+2019-03-24 16:47:49,610 - root - INFO - 执行步骤访问被测试网址http://www.163.com成功
+2019-03-24 16:47:50,861 - root - INFO - 执行步骤最大化窗口成功
+2019-03-24 16:47:55,969 - root - INFO - 执行步骤等待163邮箱登录主页加载完成成功
+2019-03-24 16:47:56,097 - root - INFO - 执行步骤显示等待id属性值为x-URS-iframe的frame框的出现，然后切换进入该frame框中成功
+2019-03-24 16:47:56,261 - root - INFO - 执行步骤输入登录用户名成功
+2019-03-24 16:47:56,427 - root - INFO - 执行步骤输入登录密码成功
+2019-03-24 16:47:56,612 - root - INFO - 执行步骤单击登录按钮成功
+2019-03-24 16:48:01,710 - root - INFO - 执行步骤等待163邮箱登录主页加载完成成功
+2019-03-24 16:48:02,147 - root - INFO - 执行步骤切回默认会话窗口成功
+2019-03-24 16:48:02,251 - root - INFO - 执行步骤断言登录成功后的页面标题是否包含“网易邮箱6.0版”关键字内容成功
+2019-03-24 16:48:02,347 - root - INFO - 用例登录163邮箱执行通过
+2019-03-24 16:48:02,448 - root - INFO - ----------创建联系人
+2019-03-24 16:48:02,448 - root - INFO - ***********调用数据驱动************
+2019-03-24 16:54:19,820 - root - INFO - 开始添加联系人602208333@qq.com
+2019-03-24 17:00:40,734 - root - INFO - 开始添加联系人602208333@qq.com
+2019-03-24 17:00:42,725 - root - INFO - 用例添加联系人执行失败
+2019-03-24 17:00:42,928 - root - INFO - 共2条用例，2条需要被执行，成功执行1条
+2019-03-24 17:14:23,749 - root - INFO - ----------登录
+2019-03-24 17:14:23,749 - root - INFO - *************调用关键字驱动****************
+2019-03-24 17:14:23,749 - root - INFO - 测试用例工12步
+2019-03-24 17:14:26,173 - root - INFO - 执行步骤打开浏览器成功
+2019-03-24 17:14:30,107 - root - INFO - 执行步骤访问被测试网址http://www.163.com成功
+2019-03-24 17:14:31,331 - root - INFO - 执行步骤最大化窗口成功
+2019-03-24 17:14:36,475 - root - INFO - 执行步骤等待163邮箱登录主页加载完成成功
+2019-03-24 17:14:36,640 - root - INFO - 执行步骤显示等待id属性值为x-URS-iframe的frame框的出现，然后切换进入该frame框中成功
+2019-03-24 17:14:36,847 - root - INFO - 执行步骤输入登录用户名成功
+2019-03-24 17:14:37,101 - root - INFO - 执行步骤输入登录密码成功
+2019-03-24 17:14:37,284 - root - INFO - 执行步骤单击登录按钮成功
+2019-03-24 17:14:42,381 - root - INFO - 执行步骤等待163邮箱登录主页加载完成成功
+2019-03-24 17:14:42,864 - root - INFO - 执行步骤切回默认会话窗口成功
+2019-03-24 17:14:42,970 - root - INFO - 执行步骤断言登录成功后的页面标题是否包含“网易邮箱6.0版”关键字内容成功
+2019-03-24 17:14:43,074 - root - INFO - 用例登录163邮箱执行通过
+2019-03-24 17:14:43,174 - root - INFO - ----------创建联系人
+2019-03-24 17:14:43,175 - root - INFO - ***********调用数据驱动************
+2019-03-24 17:14:43,178 - root - INFO - 开始添加联系人602208333@qq.com
+2019-03-24 17:14:44,576 - root - INFO - 开始添加联系人602208333@qq.com
+2019-03-24 17:14:46,449 - root - INFO - 用例添加联系人执行失败
+2019-03-24 17:14:46,626 - root - INFO - 共2条用例，2条需要被执行，成功执行1条
+2019-03-24 17:20:04,452 - root - INFO - ----------登录
+2019-03-24 17:20:04,452 - root - INFO - *************调用关键字驱动****************
+2019-03-24 17:20:04,452 - root - INFO - 测试用例工12步
+2019-03-24 17:20:06,698 - root - INFO - 执行步骤打开浏览器成功
+2019-03-24 17:20:07,266 - root - INFO - 执行步骤访问被测试网址http://www.163.com成功
+2019-03-24 17:20:08,508 - root - INFO - 执行步骤最大化窗口成功
+2019-03-24 17:20:13,650 - root - INFO - 执行步骤等待163邮箱登录主页加载完成成功
+2019-03-24 17:20:13,778 - root - INFO - 执行步骤显示等待id属性值为x-URS-iframe的frame框的出现，然后切换进入该frame框中成功
+2019-03-24 17:20:14,174 - root - INFO - 执行步骤输入登录用户名成功
+2019-03-24 17:20:14,324 - root - INFO - 执行步骤输入登录密码成功
+2019-03-24 17:20:14,502 - root - INFO - 执行步骤单击登录按钮成功
+2019-03-24 17:20:19,598 - root - INFO - 执行步骤等待163邮箱登录主页加载完成成功
+2019-03-24 17:20:20,303 - root - INFO - 执行步骤切回默认会话窗口成功
+2019-03-24 17:20:20,414 - root - INFO - 执行步骤断言登录成功后的页面标题是否包含“网易邮箱6.0版”关键字内容成功
+2019-03-24 17:20:20,519 - root - INFO - 用例登录163邮箱执行通过
+2019-03-24 17:20:20,624 - root - INFO - ----------创建联系人
+2019-03-24 17:20:20,625 - root - INFO - ***********调用数据驱动************
+2019-03-24 17:20:20,629 - root - INFO - 开始添加联系人602208333@qq.com
+2019-03-24 17:20:20,682 - root - INFO - 执行步骤单击“通讯录”链接，进入通讯录页面成功
+2019-03-24 17:20:21,230 - root - INFO - 执行步骤显示等待“新建联系人”按钮在页面上可见成功
+2019-03-24 17:20:21,291 - root - INFO - 执行步骤单击“新建联系人”按钮成功
+2019-03-24 17:20:21,306 - root - INFO - 执行步骤现实等待输入联系人姓名框是否在页面上成功
+2019-03-24 17:20:21,308 - root - ERROR - 执行步骤输入联系人姓名发生异常
+2019-03-24 17:20:21,310 - root - ERROR - None
+2019-03-24 17:20:21,313 - root - ERROR - 执行步骤输入电子邮箱发生异常
+2019-03-24 17:20:21,314 - root - ERROR - None
+2019-03-24 17:20:21,368 - root - INFO - 执行步骤设为星标联系人成功
+2019-03-24 17:20:21,369 - root - ERROR - 执行步骤输入手机号发生异常
+2019-03-24 17:20:21,370 - root - ERROR - None
+2019-03-24 17:20:21,371 - root - ERROR - 执行步骤输入联系人备注信息发生异常
+2019-03-24 17:20:21,372 - root - ERROR - None
+2019-03-24 17:20:21,432 - root - INFO - 执行步骤单击确认按钮保存联系人成功
+2019-03-24 17:20:23,436 - root - INFO - 执行步骤等待2秒成功
+2019-03-24 17:20:23,441 - root - ERROR - 执行步骤断言联系人是否添加成功发生异常
+2019-03-24 17:20:23,445 - root - ERROR - None
+2019-03-24 17:20:23,577 - root - INFO - 开始添加联系人602208333@qq.com
+2019-03-24 17:20:23,611 - root - ERROR - 执行步骤单击“通讯录”链接，进入通讯录页面发生异常
+2019-03-24 17:20:23,620 - root - ERROR - None
+2019-03-24 17:20:23,630 - root - INFO - 执行步骤显示等待“新建联系人”按钮在页面上可见成功
+2019-03-24 17:20:23,667 - root - ERROR - 执行步骤单击“新建联系人”按钮发生异常
+2019-03-24 17:20:23,669 - root - ERROR - None
+2019-03-24 17:20:23,678 - root - INFO - 执行步骤现实等待输入联系人姓名框是否在页面上成功
+2019-03-24 17:20:23,680 - root - ERROR - 执行步骤输入联系人姓名发生异常
+2019-03-24 17:20:23,680 - root - ERROR - None
+2019-03-24 17:20:23,682 - root - ERROR - 执行步骤输入电子邮箱发生异常
+2019-03-24 17:20:23,682 - root - ERROR - None
+2019-03-24 17:20:23,740 - root - INFO - 执行步骤设为星标联系人成功
+2019-03-24 17:20:23,744 - root - ERROR - 执行步骤输入手机号发生异常
+2019-03-24 17:20:23,746 - root - ERROR - None
+2019-03-24 17:20:23,750 - root - ERROR - 执行步骤输入联系人备注信息发生异常
+2019-03-24 17:20:23,753 - root - ERROR - None
+2019-03-24 17:20:23,824 - root - INFO - 执行步骤单击确认按钮保存联系人成功
+2019-03-24 17:20:25,828 - root - INFO - 执行步骤等待2秒成功
+2019-03-24 17:20:25,833 - root - ERROR - 执行步骤断言联系人是否添加成功发生异常
+2019-03-24 17:20:25,837 - root - ERROR - None
+2019-03-24 17:21:15,403 - root - INFO - 用例添加联系人执行失败
+2019-03-24 17:21:15,559 - root - INFO - 共2条用例，2条需要被执行，成功执行1条
+2019-03-24 17:23:12,983 - root - INFO - ----------登录
+2019-03-24 17:23:12,983 - root - INFO - *************调用关键字驱动****************
+2019-03-24 17:23:12,983 - root - INFO - 测试用例工12步
+2019-03-24 17:23:15,270 - root - INFO - 执行步骤打开浏览器成功
+2019-03-24 17:23:15,845 - root - INFO - 执行步骤访问被测试网址http://www.163.com成功
+2019-03-24 17:23:17,058 - root - INFO - 执行步骤最大化窗口成功
+2019-03-24 17:23:22,141 - root - INFO - 执行步骤等待163邮箱登录主页加载完成成功
+2019-03-24 17:23:22,219 - root - INFO - 执行步骤显示等待id属性值为x-URS-iframe的frame框的出现，然后切换进入该frame框中成功
+2019-03-24 17:23:22,342 - root - INFO - 执行步骤输入登录用户名成功
+2019-03-24 17:23:22,472 - root - INFO - 执行步骤输入登录密码成功
+2019-03-24 17:23:22,605 - root - INFO - 执行步骤单击登录按钮成功
+2019-03-24 17:23:27,671 - root - INFO - 执行步骤等待163邮箱登录主页加载完成成功
+2019-03-24 17:23:28,220 - root - INFO - 执行步骤切回默认会话窗口成功
+2019-03-24 17:23:28,292 - root - INFO - 执行步骤断言登录成功后的页面标题是否包含“网易邮箱6.0版”关键字内容成功
+2019-03-24 17:23:28,350 - root - INFO - 用例登录163邮箱执行通过
+2019-03-24 17:23:28,405 - root - INFO - ----------创建联系人
+2019-03-24 17:23:28,405 - root - INFO - ***********调用数据驱动************
+2019-03-24 17:23:28,406 - root - INFO - 开始添加联系人602208333@qq.com
+2019-03-24 17:23:28,455 - root - INFO - 执行步骤单击“通讯录”链接，进入通讯录页面成功
+2019-03-24 17:23:29,012 - root - INFO - 执行步骤显示等待“新建联系人”按钮在页面上可见成功
+2019-03-24 17:23:29,114 - root - INFO - 执行步骤单击“新建联系人”按钮成功
+2019-03-24 17:23:29,131 - root - INFO - 执行步骤现实等待输入联系人姓名框是否在页面上成功
+2019-03-24 17:23:29,133 - root - INFO - 出现异常Traceback (most recent call last):
+  File "F:\code\python\KeyWordAndDataDrivenFrameWork\testScripts\TestSendMailAndCreateContacts.py", line 41, in TestSendMailAndCreateContacts
+    result = CreateContacts.dataDriverFun(dataSheetObj,stepSheetObj)
+  File "F:\code\python\KeyWordAndDataDrivenFrameWork\testScripts\CreateContacts.py", line 93, in dataDriverFun
+    raise e
+  File "F:\code\python\KeyWordAndDataDrivenFrameWork\testScripts\CreateContacts.py", line 44, in dataDriverFun
+    coordinate=coordinate)
+  File "F:\code\python\KeyWordAndDataDrivenFrameWork\util\ParseExcel.py", line 79, in getCellOfValue
+    raise e
+  File "F:\code\python\KeyWordAndDataDrivenFrameWork\util\ParseExcel.py", line 77, in getCellOfValue
+    return sheet.cell(coordinate = coordinate).value
+TypeError: cell() got an unexpected keyword argument 'coordinate'
+
+2019-03-24 17:29:50,060 - root - INFO - ----------登录
+2019-03-24 17:29:50,060 - root - INFO - *************调用关键字驱动****************
+2019-03-24 17:29:50,076 - root - INFO - 测试用例工12步
+2019-03-24 17:29:52,247 - root - INFO - 执行步骤打开浏览器成功
+2019-03-24 17:29:52,846 - root - INFO - 执行步骤访问被测试网址http://www.163.com成功
+2019-03-24 17:29:54,120 - root - INFO - 执行步骤最大化窗口成功
+2019-03-24 17:29:59,215 - root - INFO - 执行步骤等待163邮箱登录主页加载完成成功
+2019-03-24 17:29:59,324 - root - INFO - 执行步骤显示等待id属性值为x-URS-iframe的frame框的出现，然后切换进入该frame框中成功
+2019-03-24 17:29:59,488 - root - INFO - 执行步骤输入登录用户名成功
+2019-03-24 17:29:59,643 - root - INFO - 执行步骤输入登录密码成功
+2019-03-24 17:29:59,821 - root - INFO - 执行步骤单击登录按钮成功
+2019-03-24 17:30:04,910 - root - INFO - 执行步骤等待163邮箱登录主页加载完成成功
+2019-03-24 17:30:05,523 - root - INFO - 执行步骤切回默认会话窗口成功
+2019-03-24 17:30:05,632 - root - INFO - 执行步骤断言登录成功后的页面标题是否包含“网易邮箱6.0版”关键字内容成功
+2019-03-24 17:30:05,728 - root - INFO - 用例登录163邮箱执行通过
+2019-03-24 17:30:05,842 - root - INFO - ----------创建联系人
+2019-03-24 17:30:05,843 - root - INFO - ***********调用数据驱动************
+2019-03-24 17:30:05,846 - root - INFO - 开始添加联系人602208333@qq.com
+2019-03-24 17:30:05,904 - root - INFO - 执行步骤单击“通讯录”链接，进入通讯录页面成功
+2019-03-24 17:30:06,446 - root - INFO - 执行步骤显示等待“新建联系人”按钮在页面上可见成功
+2019-03-24 17:30:06,536 - root - INFO - 执行步骤单击“新建联系人”按钮成功
+2019-03-24 17:30:06,552 - root - INFO - 执行步骤现实等待输入联系人姓名框是否在页面上成功
+2019-03-24 17:34:55,190 - root - INFO - 出现异常Traceback (most recent call last):
+  File "F:\code\python\KeyWordAndDataDrivenFrameWork\testScripts\TestSendMailAndCreateContacts.py", line 41, in TestSendMailAndCreateContacts
+    result = CreateContacts.dataDriverFun(dataSheetObj,stepSheetObj)
+  File "F:\code\python\KeyWordAndDataDrivenFrameWork\testScripts\CreateContacts.py", line 93, in dataDriverFun
+    raise e
+  File "F:\code\python\KeyWordAndDataDrivenFrameWork\testScripts\CreateContacts.py", line 44, in dataDriverFun
+    coordinate=coordinate)
+  File "F:\code\python\KeyWordAndDataDrivenFrameWork\util\ParseExcel.py", line 79, in getCellOfValue
+    raise e
+  File "F:\code\python\KeyWordAndDataDrivenFrameWork\util\ParseExcel.py", line 77, in getCellOfValue
+    return sheet.cell(coordinate = coordinate).value
+TypeError: cell() got an unexpected keyword argument 'coordinate'
+
+2019-03-24 17:40:49,498 - root - INFO - ----------登录
+2019-03-24 17:40:49,499 - root - INFO - *************调用关键字驱动****************
+2019-03-24 17:40:49,499 - root - INFO - 测试用例工12步
+2019-03-24 17:40:51,806 - root - INFO - 执行步骤打开浏览器成功
+2019-03-24 17:40:52,280 - root - INFO - 执行步骤访问被测试网址http://www.163.com成功
+2019-03-24 17:40:53,463 - root - INFO - 执行步骤最大化窗口成功
+2019-03-24 17:40:58,561 - root - INFO - 执行步骤等待163邮箱登录主页加载完成成功
+2019-03-24 17:40:58,670 - root - INFO - 执行步骤显示等待id属性值为x-URS-iframe的frame框的出现，然后切换进入该frame框中成功
+2019-03-24 17:40:58,787 - root - INFO - 执行步骤输入登录用户名成功
+2019-03-24 17:40:58,904 - root - INFO - 执行步骤输入登录密码成功
+2019-03-24 17:40:59,047 - root - INFO - 执行步骤单击登录按钮成功
+2019-03-24 17:41:04,102 - root - INFO - 执行步骤等待163邮箱登录主页加载完成成功
+2019-03-24 17:41:04,590 - root - INFO - 执行步骤切回默认会话窗口成功
+2019-03-24 17:41:04,657 - root - INFO - 执行步骤断言登录成功后的页面标题是否包含“网易邮箱6.0版”关键字内容成功
+2019-03-24 17:41:04,713 - root - INFO - 用例登录163邮箱执行通过
+2019-03-24 17:41:04,764 - root - INFO - ----------创建联系人
+2019-03-24 17:41:04,765 - root - INFO - ***********调用数据驱动************
+2019-03-24 17:41:04,765 - root - INFO - 开始添加联系人602208333@qq.com
+2019-03-24 17:41:04,815 - root - INFO - 执行步骤单击“通讯录”链接，进入通讯录页面成功
+2019-03-24 17:41:05,376 - root - INFO - 执行步骤显示等待“新建联系人”按钮在页面上可见成功
+2019-03-24 17:41:05,458 - root - INFO - 执行步骤单击“新建联系人”按钮成功
+2019-03-24 17:41:05,470 - root - INFO - 执行步骤现实等待输入联系人姓名框是否在页面上成功
+2019-03-24 17:41:05,540 - root - INFO - 执行步骤输入联系人姓名成功
+2019-03-24 17:41:05,774 - root - INFO - 执行步骤输入电子邮箱成功
+2019-03-24 17:41:06,020 - root - INFO - 执行步骤设为星标联系人成功
+2019-03-24 17:41:06,024 - root - INFO - 出现异常Traceback (most recent call last):
+  File "F:\code\python\KeyWordAndDataDrivenFrameWork\testScripts\TestSendMailAndCreateContacts.py", line 41, in TestSendMailAndCreateContacts
+    result = CreateContacts.dataDriverFun(dataSheetObj,stepSheetObj)
+  File "F:\code\python\KeyWordAndDataDrivenFrameWork\testScripts\CreateContacts.py", line 93, in dataDriverFun
+    raise e
+  File "F:\code\python\KeyWordAndDataDrivenFrameWork\testScripts\CreateContacts.py", line 51, in dataDriverFun
+    ",u'"+operateValue+"'" if operateValue else ""
+TypeError: can only concatenate str (not "int") to str
+
+2019-03-24 17:45:09,154 - root - INFO - ----------登录
+2019-03-24 17:45:09,154 - root - INFO - *************调用关键字驱动****************
+2019-03-24 17:45:09,154 - root - INFO - 测试用例工12步
+2019-03-24 17:45:11,446 - root - INFO - 执行步骤打开浏览器成功
+2019-03-24 17:45:11,874 - root - INFO - 执行步骤访问被测试网址http://www.163.com成功
+2019-03-24 17:45:13,082 - root - INFO - 执行步骤最大化窗口成功
+2019-03-24 17:45:18,172 - root - INFO - 执行步骤等待163邮箱登录主页加载完成成功
+2019-03-24 17:45:18,266 - root - INFO - 执行步骤显示等待id属性值为x-URS-iframe的frame框的出现，然后切换进入该frame框中成功
+2019-03-24 17:45:18,377 - root - INFO - 执行步骤输入登录用户名成功
+2019-03-24 17:45:18,504 - root - INFO - 执行步骤输入登录密码成功
+2019-03-24 17:45:18,641 - root - INFO - 执行步骤单击登录按钮成功
+2019-03-24 17:45:23,701 - root - INFO - 执行步骤等待163邮箱登录主页加载完成成功
+2019-03-24 17:45:24,496 - root - INFO - 执行步骤切回默认会话窗口成功
+2019-03-24 17:45:24,563 - root - INFO - 执行步骤断言登录成功后的页面标题是否包含“网易邮箱6.0版”关键字内容成功
+2019-03-24 17:45:24,615 - root - INFO - 用例登录163邮箱执行通过
+2019-03-24 17:45:24,667 - root - INFO - ----------创建联系人
+2019-03-24 17:45:24,668 - root - INFO - ***********调用数据驱动************
+2019-03-24 17:45:24,668 - root - INFO - 开始添加联系人602208333@qq.com
+2019-03-24 17:45:24,723 - root - INFO - 执行步骤单击“通讯录”链接，进入通讯录页面成功
+2019-03-24 17:45:25,270 - root - INFO - 执行步骤显示等待“新建联系人”按钮在页面上可见成功
+2019-03-24 17:45:25,330 - root - INFO - 执行步骤单击“新建联系人”按钮成功
+2019-03-24 17:45:25,341 - root - INFO - 执行步骤现实等待输入联系人姓名框是否在页面上成功
+2019-03-24 17:45:25,401 - root - INFO - 执行步骤输入联系人姓名成功
+2019-03-24 17:45:25,559 - root - INFO - 执行步骤输入电子邮箱成功
+2019-03-24 17:45:25,610 - root - INFO - 执行步骤设为星标联系人成功
+2019-03-24 17:45:25,728 - root - INFO - 执行步骤输入手机号成功
+2019-03-24 17:45:25,776 - root - INFO - 执行步骤输入联系人备注信息成功
+2019-03-24 17:45:25,839 - root - INFO - 执行步骤单击确认按钮保存联系人成功
+2019-03-24 17:45:25,839 - root - ERROR - 执行步骤等待2秒发生异常
+2019-03-24 17:45:25,840 - root - ERROR - None
+2019-03-24 17:45:25,860 - root - INFO - 执行步骤断言联系人是否添加成功成功
+2019-03-24 17:45:25,938 - root - INFO - 开始添加联系人602208333@qq.com
+2019-03-24 17:45:25,972 - root - ERROR - 执行步骤单击“通讯录”链接，进入通讯录页面发生异常
+2019-03-24 17:45:25,974 - root - ERROR - None
+2019-03-24 17:45:25,987 - root - INFO - 执行步骤显示等待“新建联系人”按钮在页面上可见成功
+2019-03-24 17:45:26,076 - root - ERROR - 执行步骤单击“新建联系人”按钮发生异常
+2019-03-24 17:45:26,079 - root - ERROR - None
+2019-03-24 17:45:26,107 - root - INFO - 执行步骤现实等待输入联系人姓名框是否在页面上成功
+2019-03-24 17:45:26,159 - root - INFO - 执行步骤输入联系人姓名成功
+2019-03-24 17:45:26,371 - root - INFO - 执行步骤输入电子邮箱成功
+2019-03-24 17:45:26,373 - root - INFO - 执行步骤设为星标联系人成功
+2019-03-24 17:45:26,392 - root - ERROR - 执行步骤输入手机号发生异常
+2019-03-24 17:45:26,393 - root - ERROR - None
+2019-03-24 17:45:56,792 - root - ERROR - 执行步骤输入联系人备注信息发生异常
+2019-03-24 17:45:56,792 - root - ERROR - None
+2019-03-24 17:46:26,951 - root - ERROR - 执行步骤单击确认按钮保存联系人发生异常
+2019-03-24 17:46:26,951 - root - ERROR - None
+2019-03-24 17:46:26,951 - root - ERROR - 执行步骤等待2秒发生异常
+2019-03-24 17:46:26,951 - root - ERROR - None
+2019-03-24 17:46:27,029 - root - INFO - 执行步骤断言联系人是否添加成功成功
+2019-03-24 17:46:27,131 - root - INFO - 用例添加联系人执行失败
+2019-03-24 17:46:27,179 - root - INFO - 共2条用例，2条需要被执行，成功执行1条
+2019-03-24 17:51:40,778 - root - INFO - ----------登录
+2019-03-24 17:51:40,778 - root - INFO - *************调用关键字驱动****************
+2019-03-24 17:51:40,779 - root - INFO - 测试用例工12步
+2019-03-24 17:51:43,018 - root - INFO - 执行步骤打开浏览器成功
+2019-03-24 17:51:43,440 - root - INFO - 执行步骤访问被测试网址http://www.163.com成功
+2019-03-24 17:51:44,616 - root - INFO - 执行步骤最大化窗口成功
+2019-03-24 17:51:49,699 - root - INFO - 执行步骤等待163邮箱登录主页加载完成成功
+2019-03-24 17:51:49,811 - root - INFO - 执行步骤显示等待id属性值为x-URS-iframe的frame框的出现，然后切换进入该frame框中成功
+2019-03-24 17:51:49,946 - root - INFO - 执行步骤输入登录用户名成功
+2019-03-24 17:51:50,063 - root - INFO - 执行步骤输入登录密码成功
+2019-03-24 17:51:50,201 - root - INFO - 执行步骤单击登录按钮成功
+2019-03-24 17:51:55,260 - root - INFO - 执行步骤等待163邮箱登录主页加载完成成功
+2019-03-24 17:51:55,910 - root - INFO - 执行步骤切回默认会话窗口成功
+2019-03-24 17:51:55,977 - root - INFO - 执行步骤断言登录成功后的页面标题是否包含“网易邮箱6.0版”关键字内容成功
+2019-03-24 17:51:56,040 - root - INFO - 用例登录163邮箱执行通过
+2019-03-24 17:51:56,103 - root - INFO - ----------创建联系人
+2019-03-24 17:51:56,103 - root - INFO - ***********调用数据驱动************
+2019-03-24 17:51:56,104 - root - INFO - 开始添加联系人602208333@qq.com
+2019-03-24 17:51:56,158 - root - INFO - 执行步骤单击“通讯录”链接，进入通讯录页面成功
+2019-03-24 17:51:56,692 - root - INFO - 执行步骤显示等待“新建联系人”按钮在页面上可见成功
+2019-03-24 17:51:56,745 - root - INFO - 执行步骤单击“新建联系人”按钮成功
+2019-03-24 17:51:56,762 - root - INFO - 执行步骤现实等待输入联系人姓名框是否在页面上成功
+2019-03-24 17:51:56,825 - root - INFO - 执行步骤输入联系人姓名成功
+2019-03-24 17:51:57,089 - root - INFO - 执行步骤输入电子邮箱成功
+2019-03-24 17:51:57,355 - root - INFO - 执行步骤设为星标联系人成功
+2019-03-24 17:51:57,682 - root - INFO - 执行步骤输入手机号成功
+2019-03-24 17:51:57,729 - root - INFO - 执行步骤输入联系人备注信息成功
+2019-03-24 17:51:57,783 - root - INFO - 执行步骤单击确认按钮保存联系人成功
+2019-03-24 17:51:57,784 - root - ERROR - 执行步骤等待2秒发生异常
+2019-03-24 17:51:57,786 - root - ERROR - None
+2019-03-24 17:51:57,804 - root - INFO - 执行步骤断言联系人是否添加成功成功
+2019-03-24 17:51:57,863 - root - INFO - 开始添加联系人602208333@qq.com
+2019-03-24 17:51:57,897 - root - ERROR - 执行步骤单击“通讯录”链接，进入通讯录页面发生异常
+2019-03-24 17:51:57,899 - root - ERROR - None
+2019-03-24 17:51:57,928 - root - INFO - 执行步骤显示等待“新建联系人”按钮在页面上可见成功
+2019-03-24 17:51:57,995 - root - ERROR - 执行步骤单击“新建联系人”按钮发生异常
+2019-03-24 17:51:57,996 - root - ERROR - None
+2019-03-24 17:51:58,008 - root - INFO - 执行步骤现实等待输入联系人姓名框是否在页面上成功
+2019-03-24 17:51:58,061 - root - INFO - 执行步骤输入联系人姓名成功
+2019-03-24 17:51:58,243 - root - INFO - 执行步骤输入电子邮箱成功
+2019-03-24 17:51:58,244 - root - INFO - 执行步骤设为星标联系人成功
+2019-03-24 17:51:58,268 - root - ERROR - 执行步骤输入手机号发生异常
+2019-03-24 17:51:58,271 - root - ERROR - None
+2019-03-24 17:52:28,296 - root - ERROR - 执行步骤输入联系人备注信息发生异常
+2019-03-24 17:52:28,297 - root - ERROR - None
+2019-03-24 17:52:52,019 - root - INFO - 执行步骤单击确认按钮保存联系人成功
+2019-03-24 17:52:52,020 - root - ERROR - 执行步骤等待2秒发生异常
+2019-03-24 17:52:52,020 - root - ERROR - None
+2019-03-24 17:52:52,047 - root - INFO - 执行步骤断言联系人是否添加成功成功
+2019-03-24 17:52:52,116 - root - INFO - 用例添加联系人执行失败
+2019-03-24 17:52:52,186 - root - INFO - 共2条用例，2条需要被执行，成功执行1条
+2019-03-24 17:52:57,428 - root - INFO - ----------登录
+2019-03-24 17:52:57,428 - root - INFO - *************调用关键字驱动****************
+2019-03-24 17:52:57,429 - root - INFO - 测试用例工12步
+2019-03-24 17:52:59,702 - root - INFO - 执行步骤打开浏览器成功
+2019-03-24 17:53:00,265 - root - INFO - 执行步骤访问被测试网址http://www.163.com成功
+2019-03-24 17:53:01,474 - root - INFO - 执行步骤最大化窗口成功
+2019-03-24 17:53:06,544 - root - INFO - 执行步骤等待163邮箱登录主页加载完成成功
+2019-03-24 17:53:06,625 - root - INFO - 执行步骤显示等待id属性值为x-URS-iframe的frame框的出现，然后切换进入该frame框中成功
+2019-03-24 17:53:06,735 - root - INFO - 执行步骤输入登录用户名成功
+2019-03-24 17:53:06,850 - root - INFO - 执行步骤输入登录密码成功
+2019-03-24 17:53:06,993 - root - INFO - 执行步骤单击登录按钮成功
+2019-03-24 17:53:12,054 - root - INFO - 执行步骤等待163邮箱登录主页加载完成成功
+2019-03-24 17:53:12,623 - root - INFO - 执行步骤切回默认会话窗口成功
+2019-03-24 17:53:12,692 - root - INFO - 执行步骤断言登录成功后的页面标题是否包含“网易邮箱6.0版”关键字内容成功
+2019-03-24 17:53:12,744 - root - INFO - 用例登录163邮箱执行通过
+2019-03-24 17:53:12,795 - root - INFO - ----------创建联系人
+2019-03-24 17:53:12,795 - root - INFO - ***********调用数据驱动************
+2019-03-24 17:53:12,796 - root - INFO - 开始添加联系人602208333@qq.com
+2019-03-24 17:53:12,848 - root - INFO - 执行步骤单击“通讯录”链接，进入通讯录页面成功
+2019-03-24 17:53:13,374 - root - INFO - 执行步骤显示等待“新建联系人”按钮在页面上可见成功
+2019-03-24 17:53:13,473 - root - INFO - 执行步骤单击“新建联系人”按钮成功
+2019-03-24 17:53:13,491 - root - INFO - 执行步骤现实等待输入联系人姓名框是否在页面上成功
+2019-03-24 17:53:13,545 - root - INFO - 执行步骤输入联系人姓名成功
+2019-03-24 17:53:13,872 - root - INFO - 执行步骤输入电子邮箱成功
+2019-03-24 17:53:14,017 - root - INFO - 执行步骤设为星标联系人成功
+2019-03-24 17:53:14,129 - root - INFO - 执行步骤输入手机号成功
+2019-03-24 17:53:14,175 - root - INFO - 执行步骤输入联系人备注信息成功
+2019-03-24 17:53:14,225 - root - INFO - 执行步骤单击确认按钮保存联系人成功
+2019-03-24 17:53:14,226 - root - ERROR - 执行步骤等待2秒发生异常
+2019-03-24 17:53:14,227 - root - ERROR - None
+2019-03-24 17:53:14,245 - root - INFO - 执行步骤断言联系人是否添加成功成功
+2019-03-24 17:53:14,305 - root - INFO - 开始添加联系人602208333@qq.com
+2019-03-24 17:53:14,345 - root - ERROR - 执行步骤单击“通讯录”链接，进入通讯录页面发生异常
+2019-03-24 17:53:14,348 - root - ERROR - None
+2019-03-24 17:53:14,359 - root - INFO - 执行步骤显示等待“新建联系人”按钮在页面上可见成功
+2019-03-24 17:53:14,401 - root - ERROR - 执行步骤单击“新建联系人”按钮发生异常
+2019-03-24 17:53:14,404 - root - ERROR - None
+2019-03-24 17:53:14,412 - root - INFO - 执行步骤现实等待输入联系人姓名框是否在页面上成功
+2019-03-24 17:53:14,484 - root - INFO - 执行步骤输入联系人姓名成功
+2019-03-24 17:53:14,661 - root - INFO - 执行步骤输入电子邮箱成功
+2019-03-24 17:53:14,661 - root - INFO - 执行步骤设为星标联系人成功
+2019-03-24 17:53:14,749 - root - INFO - 执行步骤输入手机号成功
+2019-03-24 17:53:14,768 - root - ERROR - 执行步骤输入联系人备注信息发生异常
+2019-03-24 17:53:14,772 - root - ERROR - None
+2019-03-24 17:53:37,625 - root - INFO - 执行步骤单击确认按钮保存联系人成功
+2019-03-24 17:53:37,626 - root - ERROR - 执行步骤等待2秒发生异常
+2019-03-24 17:53:37,627 - root - ERROR - None
+2019-03-24 17:53:37,646 - root - INFO - 执行步骤断言联系人是否添加成功成功
+2019-03-24 17:53:37,713 - root - INFO - 用例添加联系人执行失败
+2019-03-24 17:53:37,788 - root - INFO - 共2条用例，2条需要被执行，成功执行1条
+2019-03-24 17:54:46,436 - root - INFO - ----------登录
+2019-03-24 17:54:46,436 - root - INFO - *************调用关键字驱动****************
+2019-03-24 17:54:46,436 - root - INFO - 测试用例工12步
+2019-03-24 17:54:48,636 - root - INFO - 执行步骤打开浏览器成功
+2019-03-24 17:54:49,143 - root - INFO - 执行步骤访问被测试网址http://www.163.com成功
+2019-03-24 17:54:50,381 - root - INFO - 执行步骤最大化窗口成功
+2019-03-24 17:54:55,448 - root - INFO - 执行步骤等待163邮箱登录主页加载完成成功
+2019-03-24 17:54:55,558 - root - INFO - 执行步骤显示等待id属性值为x-URS-iframe的frame框的出现，然后切换进入该frame框中成功
+2019-03-24 17:54:55,671 - root - INFO - 执行步骤输入登录用户名成功
+2019-03-24 17:54:55,786 - root - INFO - 执行步骤输入登录密码成功
+2019-03-24 17:54:55,921 - root - INFO - 执行步骤单击登录按钮成功
+2019-03-24 17:55:00,977 - root - INFO - 执行步骤等待163邮箱登录主页加载完成成功
+2019-03-24 17:55:01,521 - root - INFO - 执行步骤切回默认会话窗口成功
+2019-03-24 17:55:01,588 - root - INFO - 执行步骤断言登录成功后的页面标题是否包含“网易邮箱6.0版”关键字内容成功
+2019-03-24 17:55:01,640 - root - INFO - 用例登录163邮箱执行通过
+2019-03-24 17:55:01,692 - root - INFO - ----------创建联系人
+2019-03-24 17:55:01,693 - root - INFO - ***********调用数据驱动************
+2019-03-24 17:55:01,693 - root - INFO - 开始添加联系人602208333@qq.com
+2019-03-24 17:55:01,741 - root - INFO - 执行步骤单击“通讯录”链接，进入通讯录页面成功
+2019-03-24 17:55:02,264 - root - INFO - 执行步骤显示等待“新建联系人”按钮在页面上可见成功
+2019-03-24 17:55:02,332 - root - INFO - 执行步骤单击“新建联系人”按钮成功
+2019-03-24 17:55:02,346 - root - INFO - 执行步骤现实等待输入联系人姓名框是否在页面上成功
+2019-03-24 17:55:02,399 - root - INFO - 执行步骤输入联系人姓名成功
+2019-03-24 17:55:02,560 - root - INFO - 执行步骤输入电子邮箱成功
+2019-03-24 17:55:02,612 - root - INFO - 执行步骤设为星标联系人成功
+2019-03-24 17:55:02,720 - root - INFO - 执行步骤输入手机号成功
+2019-03-24 17:55:02,763 - root - INFO - 执行步骤输入联系人备注信息成功
+2019-03-24 17:55:02,818 - root - INFO - 执行步骤单击确认按钮保存联系人成功
+2019-03-24 17:55:04,820 - root - INFO - 执行步骤等待2秒成功
+2019-03-24 17:55:04,885 - root - INFO - 执行步骤断言联系人是否添加成功成功
+2019-03-24 17:55:04,958 - root - INFO - 开始添加联系人602208333@qq.com
+2019-03-24 17:55:04,996 - root - INFO - 执行步骤单击“通讯录”链接，进入通讯录页面成功
+2019-03-24 17:55:05,007 - root - INFO - 执行步骤显示等待“新建联系人”按钮在页面上可见成功
+2019-03-24 17:55:05,052 - root - INFO - 执行步骤单击“新建联系人”按钮成功
+2019-03-24 17:55:05,063 - root - INFO - 执行步骤现实等待输入联系人姓名框是否在页面上成功
+2019-03-24 17:55:05,119 - root - INFO - 执行步骤输入联系人姓名成功
+2019-03-24 17:55:05,267 - root - INFO - 执行步骤输入电子邮箱成功
+2019-03-24 17:55:05,268 - root - INFO - 执行步骤设为星标联系人成功
+2019-03-24 17:55:05,378 - root - INFO - 执行步骤输入手机号成功
+2019-03-24 17:55:05,420 - root - INFO - 执行步骤输入联系人备注信息成功
+2019-03-24 17:55:05,464 - root - INFO - 执行步骤单击确认按钮保存联系人成功
+2019-03-24 17:55:07,465 - root - INFO - 执行步骤等待2秒成功
+2019-03-24 17:55:07,531 - root - INFO - 执行步骤断言联系人是否添加成功成功
+2019-03-24 17:55:07,614 - root - INFO - 用例添加联系人执行成功
+2019-03-24 17:55:07,670 - root - INFO - 共2条用例，2条需要被执行，成功执行2条
+2019-03-24 17:57:10,152 - root - INFO - ----------登录
+2019-03-24 17:57:10,152 - root - INFO - *************调用关键字驱动****************
+2019-03-24 17:57:10,152 - root - INFO - 测试用例工12步
+2019-03-24 17:57:12,479 - root - INFO - 执行步骤打开浏览器成功
+2019-03-24 17:57:13,019 - root - INFO - 执行步骤访问被测试网址http://www.163.com成功
+2019-03-24 17:57:14,188 - root - INFO - 执行步骤最大化窗口成功
+2019-03-24 17:57:19,257 - root - INFO - 执行步骤等待163邮箱登录主页加载完成成功
+2019-03-24 17:57:19,349 - root - INFO - 执行步骤显示等待id属性值为x-URS-iframe的frame框的出现，然后切换进入该frame框中成功
+2019-03-24 17:57:19,557 - root - INFO - 执行步骤输入登录用户名成功
+2019-03-24 17:57:19,682 - root - INFO - 执行步骤输入登录密码成功
+2019-03-24 17:57:19,891 - root - INFO - 执行步骤单击登录按钮成功
+2019-03-24 17:57:24,959 - root - INFO - 执行步骤等待163邮箱登录主页加载完成成功
+2019-03-24 17:57:28,718 - root - INFO - 执行步骤切回默认会话窗口成功
+2019-03-24 17:57:28,779 - root - INFO - 执行步骤断言登录成功后的页面标题是否包含“网易邮箱6.0版”关键字内容成功
+2019-03-24 17:57:28,830 - root - INFO - 用例登录163邮箱执行通过
+2019-03-24 17:57:28,882 - root - INFO - ----------创建联系人
+2019-03-24 17:57:28,883 - root - INFO - ***********调用数据驱动************
+2019-03-24 17:57:28,883 - root - INFO - 开始添加联系人602208333@qq.com
+2019-03-24 17:57:28,937 - root - INFO - 执行步骤单击“通讯录”链接，进入通讯录页面成功
+2019-03-24 17:57:29,566 - root - INFO - 执行步骤显示等待“新建联系人”按钮在页面上可见成功
+2019-03-24 17:57:29,722 - root - INFO - 执行步骤单击“新建联系人”按钮成功
+2019-03-24 17:57:29,746 - root - INFO - 执行步骤现实等待输入联系人姓名框是否在页面上成功
+2019-03-24 17:57:29,824 - root - INFO - 执行步骤输入联系人姓名成功
+2019-03-24 17:57:30,407 - root - INFO - 执行步骤输入电子邮箱成功
+2019-03-24 17:57:30,481 - root - INFO - 执行步骤设为星标联系人成功
+2019-03-24 17:57:30,585 - root - INFO - 执行步骤输入手机号成功
+2019-03-24 17:57:30,650 - root - INFO - 执行步骤输入联系人备注信息成功
+2019-03-24 17:57:30,713 - root - INFO - 执行步骤单击确认按钮保存联系人成功
+2019-03-24 17:57:32,715 - root - INFO - 执行步骤等待2秒成功
+2019-03-24 17:57:32,769 - root - INFO - 执行步骤断言联系人是否添加成功成功
+2019-03-24 17:57:32,854 - root - INFO - 开始添加联系人602208333@qq.com
+2019-03-24 17:57:32,892 - root - INFO - 执行步骤单击“通讯录”链接，进入通讯录页面成功
+2019-03-24 17:57:32,899 - root - INFO - 执行步骤显示等待“新建联系人”按钮在页面上可见成功
+2019-03-24 17:57:32,956 - root - INFO - 执行步骤单击“新建联系人”按钮成功
+2019-03-24 17:57:32,978 - root - INFO - 执行步骤现实等待输入联系人姓名框是否在页面上成功
+2019-03-24 17:57:33,049 - root - INFO - 执行步骤输入联系人姓名成功
+2019-03-24 17:57:33,203 - root - INFO - 执行步骤输入电子邮箱成功
+2019-03-24 17:57:33,204 - root - INFO - 执行步骤设为星标联系人成功
+2019-03-24 17:57:33,317 - root - INFO - 执行步骤输入手机号成功
+2019-03-24 17:57:33,357 - root - INFO - 执行步骤输入联系人备注信息成功
+2019-03-24 17:57:33,404 - root - INFO - 执行步骤单击确认按钮保存联系人成功
+2019-03-24 17:57:35,405 - root - INFO - 执行步骤等待2秒成功
+2019-03-24 17:57:35,457 - root - INFO - 执行步骤断言联系人是否添加成功成功
+2019-03-24 17:57:35,521 - root - INFO - 用例添加联系人执行成功
+2019-03-24 17:57:35,573 - root - INFO - 共2条用例，2条需要被执行，成功执行2条
+2019-03-24 17:58:29,972 - root - INFO - ----------登录
+2019-03-24 17:58:29,972 - root - INFO - *************调用关键字驱动****************
+2019-03-24 17:58:29,972 - root - INFO - 测试用例工12步
+2019-03-24 17:58:32,294 - root - INFO - 执行步骤打开浏览器成功
+2019-03-24 17:58:32,853 - root - INFO - 执行步骤访问被测试网址http://www.163.com成功
+2019-03-24 17:58:34,068 - root - INFO - 执行步骤最大化窗口成功
+2019-03-24 17:58:39,148 - root - INFO - 执行步骤等待163邮箱登录主页加载完成成功
+2019-03-24 17:58:39,269 - root - INFO - 执行步骤显示等待id属性值为x-URS-iframe的frame框的出现，然后切换进入该frame框中成功
+2019-03-24 17:58:39,390 - root - INFO - 执行步骤输入登录用户名成功
+2019-03-24 17:58:39,503 - root - INFO - 执行步骤输入登录密码成功
+2019-03-24 17:58:39,645 - root - INFO - 执行步骤单击登录按钮成功
+2019-03-24 17:58:44,692 - root - INFO - 执行步骤等待163邮箱登录主页加载完成成功
+2019-03-24 17:58:46,053 - root - INFO - 执行步骤切回默认会话窗口成功
+2019-03-24 17:58:46,112 - root - INFO - 执行步骤断言登录成功后的页面标题是否包含“网易邮箱6.0版”关键字内容成功
+2019-03-24 17:58:46,163 - root - INFO - 用例登录163邮箱执行通过
+2019-03-24 17:58:46,215 - root - INFO - ----------创建联系人
+2019-03-24 17:58:46,216 - root - INFO - ***********调用数据驱动************
+2019-03-24 17:58:46,216 - root - INFO - 开始添加联系人602208333@qq.com
+2019-03-24 17:58:46,269 - root - INFO - 执行步骤单击“通讯录”链接，进入通讯录页面成功
+2019-03-24 17:58:46,806 - root - INFO - 执行步骤显示等待“新建联系人”按钮在页面上可见成功
+2019-03-24 17:58:46,927 - root - INFO - 执行步骤单击“新建联系人”按钮成功
+2019-03-24 17:58:46,939 - root - INFO - 执行步骤现实等待输入联系人姓名框是否在页面上成功
+2019-03-24 17:58:46,999 - root - INFO - 执行步骤输入联系人姓名成功
+2019-03-24 17:58:47,150 - root - INFO - 执行步骤输入电子邮箱成功
+2019-03-24 17:58:47,202 - root - INFO - 执行步骤设为星标联系人成功
+2019-03-24 17:58:47,311 - root - INFO - 执行步骤输入手机号成功
+2019-03-24 17:58:47,351 - root - INFO - 执行步骤输入联系人备注信息成功
+2019-03-24 17:58:47,406 - root - INFO - 执行步骤单击确认按钮保存联系人成功
+2019-03-24 17:58:49,409 - root - INFO - 执行步骤等待2秒成功
+2019-03-24 17:58:49,420 - root - INFO - 出现异常Traceback (most recent call last):
+  File "F:\code\python\KeyWordAndDataDrivenFrameWork\testScripts\TestSendMailAndCreateContacts.py", line 41, in TestSendMailAndCreateContacts
+    result = CreateContacts.dataDriverFun(dataSheetObj,stepSheetObj)
+  File "F:\code\python\KeyWordAndDataDrivenFrameWork\testScripts\CreateContacts.py", line 95, in dataDriverFun
+    raise e
+  File "F:\code\python\KeyWordAndDataDrivenFrameWork\testScripts\CreateContacts.py", line 44, in dataDriverFun
+    coordinate=coordinate)
+  File "F:\code\python\KeyWordAndDataDrivenFrameWork\util\ParseExcel.py", line 79, in getCellOfValue
+    raise e
+  File "F:\code\python\KeyWordAndDataDrivenFrameWork\util\ParseExcel.py", line 77, in getCellOfValue
+    return sheet[coordinate].value
+  File "C:\Users\mrwang\venv\lib\site-packages\openpyxl\worksheet\worksheet.py", line 288, in __getitem__
+    min_col, min_row, max_col, max_row = range_boundaries(key)
+  File "C:\Users\mrwang\venv\lib\site-packages\openpyxl\utils\cell.py", line 137, in range_boundaries
+    raise ValueError(msg)
+ValueError: 王大山2 is not a valid coordinate or range
+
+2019-03-24 18:08:48,391 - root - INFO - ----------登录
+2019-03-24 18:08:48,391 - root - INFO - *************调用关键字驱动****************
+2019-03-24 18:08:48,391 - root - INFO - 测试用例工12步
+2019-03-24 18:08:50,675 - root - INFO - 执行步骤打开浏览器成功
+2019-03-24 18:08:51,135 - root - INFO - 执行步骤访问被测试网址http://www.163.com成功
+2019-03-24 18:08:52,332 - root - INFO - 执行步骤最大化窗口成功
+2019-03-24 18:08:57,421 - root - INFO - 执行步骤等待163邮箱登录主页加载完成成功
+2019-03-24 18:08:57,511 - root - INFO - 执行步骤显示等待id属性值为x-URS-iframe的frame框的出现，然后切换进入该frame框中成功
+2019-03-24 18:08:57,643 - root - INFO - 执行步骤输入登录用户名成功
+2019-03-24 18:08:57,758 - root - INFO - 执行步骤输入登录密码成功
+2019-03-24 18:08:57,893 - root - INFO - 执行步骤单击登录按钮成功
+2019-03-24 18:09:02,951 - root - INFO - 执行步骤等待163邮箱登录主页加载完成成功
+2019-03-24 18:09:03,472 - root - INFO - 执行步骤切回默认会话窗口成功
+2019-03-24 18:09:03,538 - root - INFO - 执行步骤断言登录成功后的页面标题是否包含“网易邮箱6.0版”关键字内容成功
+2019-03-24 18:09:03,593 - root - INFO - 用例登录163邮箱执行通过
+2019-03-24 18:09:03,650 - root - INFO - ----------创建联系人
+2019-03-24 18:09:03,650 - root - INFO - ***********调用数据驱动************
+2019-03-24 18:09:03,651 - root - INFO - 开始添加联系人602208333@qq.com
+2019-03-24 18:09:03,701 - root - INFO - 执行步骤单击“通讯录”链接，进入通讯录页面成功
+2019-03-24 18:09:04,255 - root - INFO - 执行步骤显示等待“新建联系人”按钮在页面上可见成功
+2019-03-24 18:09:04,323 - root - INFO - 执行步骤单击“新建联系人”按钮成功
+2019-03-24 18:09:04,341 - root - INFO - 执行步骤现实等待输入联系人姓名框是否在页面上成功
+2019-03-24 18:09:04,410 - root - INFO - 执行步骤输入联系人姓名成功
+2019-03-24 18:09:04,579 - root - INFO - 执行步骤输入电子邮箱成功
+2019-03-24 18:09:04,637 - root - INFO - 执行步骤设为星标联系人成功
+2019-03-24 18:09:04,759 - root - INFO - 执行步骤输入手机号成功
+2019-03-24 18:09:04,811 - root - INFO - 执行步骤输入联系人备注信息成功
+2019-03-24 18:09:04,876 - root - INFO - 执行步骤单击确认按钮保存联系人成功
+2019-03-24 18:09:06,877 - root - INFO - 执行步骤等待2秒成功
+2019-03-24 18:09:06,888 - root - INFO - 出现异常Traceback (most recent call last):
+  File "F:\code\python\KeyWordAndDataDrivenFrameWork\testScripts\TestSendMailAndCreateContacts.py", line 41, in TestSendMailAndCreateContacts
+    result = CreateContacts.dataDriverFun(dataSheetObj,stepSheetObj)
+  File "F:\code\python\KeyWordAndDataDrivenFrameWork\testScripts\CreateContacts.py", line 95, in dataDriverFun
+    raise e
+  File "F:\code\python\KeyWordAndDataDrivenFrameWork\testScripts\CreateContacts.py", line 44, in dataDriverFun
+    coordinate=coordinate)
+  File "F:\code\python\KeyWordAndDataDrivenFrameWork\util\ParseExcel.py", line 79, in getCellOfValue
+    raise e
+  File "F:\code\python\KeyWordAndDataDrivenFrameWork\util\ParseExcel.py", line 77, in getCellOfValue
+    return sheet[coordinate].value
+  File "C:\Users\mrwang\venv\lib\site-packages\openpyxl\worksheet\worksheet.py", line 288, in __getitem__
+    min_col, min_row, max_col, max_row = range_boundaries(key)
+  File "C:\Users\mrwang\venv\lib\site-packages\openpyxl\utils\cell.py", line 137, in range_boundaries
+    raise ValueError(msg)
+ValueError: 王大山2 is not a valid coordinate or range
+
+2019-03-24 18:17:09,335 - root - INFO - ----------登录
+2019-03-24 18:17:09,336 - root - INFO - *************调用关键字驱动****************
+2019-03-24 18:17:09,336 - root - INFO - 测试用例工12步
+2019-03-24 18:17:11,669 - root - INFO - 执行步骤打开浏览器成功
+2019-03-24 18:17:12,186 - root - INFO - 执行步骤访问被测试网址http://www.163.com成功
+2019-03-24 18:17:13,367 - root - INFO - 执行步骤最大化窗口成功
+2019-03-24 18:17:18,457 - root - INFO - 执行步骤等待163邮箱登录主页加载完成成功
+2019-03-24 18:17:18,607 - root - INFO - 执行步骤显示等待id属性值为x-URS-iframe的frame框的出现，然后切换进入该frame框中成功
+2019-03-24 18:17:18,889 - root - INFO - 执行步骤输入登录用户名成功
+2019-03-24 18:17:19,001 - root - INFO - 执行步骤输入登录密码成功
+2019-03-24 18:17:19,140 - root - INFO - 执行步骤单击登录按钮成功
+2019-03-24 18:17:24,188 - root - INFO - 执行步骤等待163邮箱登录主页加载完成成功
+2019-03-24 18:17:24,759 - root - INFO - 执行步骤切回默认会话窗口成功
+2019-03-24 18:17:24,822 - root - INFO - 执行步骤断言登录成功后的页面标题是否包含“网易邮箱6.0版”关键字内容成功
+2019-03-24 18:17:24,873 - root - INFO - 用例登录163邮箱执行通过
+2019-03-24 18:17:24,928 - root - INFO - ----------创建联系人
+2019-03-24 18:17:24,929 - root - INFO - ***********调用数据驱动************
+2019-03-24 18:17:24,929 - root - INFO - 开始添加联系人602208333@qq.com
+2019-03-24 18:17:24,978 - root - INFO - 执行步骤单击“通讯录”链接，进入通讯录页面成功
+2019-03-24 18:17:25,529 - root - INFO - 执行步骤显示等待“新建联系人”按钮在页面上可见成功
+2019-03-24 18:17:25,610 - root - INFO - 执行步骤单击“新建联系人”按钮成功
+2019-03-24 18:17:25,624 - root - INFO - 执行步骤现实等待输入联系人姓名框是否在页面上成功
+2019-03-24 18:17:25,687 - root - INFO - 执行步骤输入联系人姓名成功
+2019-03-24 18:17:25,859 - root - INFO - 执行步骤输入电子邮箱成功
+2019-03-24 18:17:25,911 - root - INFO - 执行步骤设为星标联系人成功
+2019-03-24 18:17:26,039 - root - INFO - 执行步骤输入手机号成功
+2019-03-24 18:17:26,088 - root - INFO - 执行步骤输入联系人备注信息成功
+2019-03-24 18:17:26,146 - root - INFO - 执行步骤单击确认按钮保存联系人成功
+2019-03-24 18:17:28,148 - root - INFO - 执行步骤等待2秒成功
+2019-03-24 18:17:28,200 - root - INFO - 执行步骤断言联系人是否添加成功成功
+2019-03-24 18:17:28,265 - root - INFO - 开始添加联系人602208333@qq.com
+2019-03-24 18:17:28,302 - root - INFO - 执行步骤单击“通讯录”链接，进入通讯录页面成功
+2019-03-24 18:17:28,312 - root - INFO - 执行步骤显示等待“新建联系人”按钮在页面上可见成功
+2019-03-24 18:17:28,354 - root - INFO - 执行步骤单击“新建联系人”按钮成功
+2019-03-24 18:17:28,367 - root - INFO - 执行步骤现实等待输入联系人姓名框是否在页面上成功
+2019-03-24 18:17:28,424 - root - INFO - 执行步骤输入联系人姓名成功
+2019-03-24 18:17:28,561 - root - INFO - 执行步骤输入电子邮箱成功
+2019-03-24 18:17:28,562 - root - INFO - 执行步骤设为星标联系人成功
+2019-03-24 18:17:28,673 - root - INFO - 执行步骤输入手机号成功
+2019-03-24 18:17:28,711 - root - INFO - 执行步骤输入联系人备注信息成功
+2019-03-24 18:17:28,768 - root - INFO - 执行步骤单击确认按钮保存联系人成功
+2019-03-24 18:17:30,771 - root - INFO - 执行步骤等待2秒成功
+2019-03-24 18:17:30,818 - root - INFO - 执行步骤断言联系人是否添加成功成功
+2019-03-24 18:17:30,906 - root - INFO - 用例添加联系人执行成功
+2019-03-24 18:17:30,960 - root - INFO - 共2条用例，2条需要被执行，成功执行2条
+2019-03-24 18:18:41,862 - root - INFO - ----------登录
+2019-03-24 18:18:41,862 - root - INFO - *************调用关键字驱动****************
+2019-03-24 18:18:41,862 - root - INFO - 测试用例工12步
+2019-03-24 18:18:44,209 - root - INFO - 执行步骤打开浏览器成功
+2019-03-24 18:18:44,712 - root - INFO - 执行步骤访问被测试网址http://www.163.com成功
+2019-03-24 18:18:45,909 - root - INFO - 执行步骤最大化窗口成功
+2019-03-24 18:18:50,972 - root - INFO - 执行步骤等待163邮箱登录主页加载完成成功
+2019-03-24 18:18:51,059 - root - INFO - 执行步骤显示等待id属性值为x-URS-iframe的frame框的出现，然后切换进入该frame框中成功
+2019-03-24 18:18:51,172 - root - INFO - 执行步骤输入登录用户名成功
+2019-03-24 18:18:51,299 - root - INFO - 执行步骤输入登录密码成功
+2019-03-24 18:18:51,520 - root - INFO - 执行步骤单击登录按钮成功
+2019-03-24 18:18:56,623 - root - INFO - 执行步骤等待163邮箱登录主页加载完成成功
+2019-03-24 18:18:57,103 - root - INFO - 执行步骤切回默认会话窗口成功
+2019-03-24 18:18:57,172 - root - INFO - 执行步骤断言登录成功后的页面标题是否包含“网易邮箱6.0版”关键字内容成功
+2019-03-24 18:18:57,247 - root - INFO - 用例登录163邮箱执行通过
+2019-03-24 18:18:57,298 - root - INFO - ----------创建联系人
+2019-03-24 18:18:57,298 - root - INFO - ***********调用数据驱动************
+2019-03-24 18:18:57,299 - root - INFO - 开始添加联系人602208333@qq.com
+2019-03-24 18:18:57,356 - root - INFO - 执行步骤单击“通讯录”链接，进入通讯录页面成功
+2019-03-24 18:18:57,883 - root - INFO - 执行步骤显示等待“新建联系人”按钮在页面上可见成功
+2019-03-24 18:18:57,986 - root - INFO - 执行步骤单击“新建联系人”按钮成功
+2019-03-24 18:18:57,998 - root - INFO - 执行步骤现实等待输入联系人姓名框是否在页面上成功
+2019-03-24 18:18:58,049 - root - INFO - 执行步骤输入联系人姓名成功
+2019-03-24 18:18:58,449 - root - INFO - 执行步骤输入电子邮箱成功
+2019-03-24 18:18:58,567 - root - INFO - 执行步骤设为星标联系人成功
+2019-03-24 18:18:59,038 - root - INFO - 执行步骤输入手机号成功
+2019-03-24 18:18:59,090 - root - INFO - 执行步骤输入联系人备注信息成功
+2019-03-24 18:18:59,141 - root - INFO - 执行步骤单击确认按钮保存联系人成功
+2019-03-24 18:19:01,142 - root - INFO - 执行步骤等待2秒成功
+2019-03-24 18:19:01,188 - root - ERROR - 执行步骤断言联系人是否添加成功发生异常
+2019-03-24 18:19:01,190 - root - ERROR - None
+2019-03-24 18:19:01,773 - root - INFO - 开始添加联系人602208333@qq.com
+2019-03-24 18:19:01,813 - root - INFO - 执行步骤单击“通讯录”链接，进入通讯录页面成功
+2019-03-24 18:19:01,830 - root - INFO - 执行步骤显示等待“新建联系人”按钮在页面上可见成功
+2019-03-24 18:19:01,911 - root - INFO - 执行步骤单击“新建联系人”按钮成功
+2019-03-24 18:19:01,921 - root - INFO - 执行步骤现实等待输入联系人姓名框是否在页面上成功
+2019-03-24 18:19:01,968 - root - INFO - 执行步骤输入联系人姓名成功
+2019-03-24 18:19:02,127 - root - INFO - 执行步骤输入电子邮箱成功
+2019-03-24 18:19:02,127 - root - INFO - 执行步骤设为星标联系人成功
+2019-03-24 18:19:02,238 - root - INFO - 执行步骤输入手机号成功
+2019-03-24 18:19:02,277 - root - INFO - 执行步骤输入联系人备注信息成功
+2019-03-24 18:19:02,322 - root - INFO - 执行步骤单击确认按钮保存联系人成功
+2019-03-24 18:19:04,325 - root - INFO - 执行步骤等待2秒成功
+2019-03-24 18:19:04,374 - root - ERROR - 执行步骤断言联系人是否添加成功发生异常
+2019-03-24 18:19:04,376 - root - ERROR - None
+2019-03-24 18:19:04,932 - root - INFO - 用例添加联系人执行失败
+2019-03-24 18:19:04,988 - root - INFO - 共2条用例，2条需要被执行，成功执行1条
+2019-03-24 18:26:09,721 - root - INFO - ----------登录
+2019-03-24 18:26:09,721 - root - INFO - *************调用关键字驱动****************
+2019-03-24 18:26:09,721 - root - INFO - 测试用例工12步
+2019-03-24 18:26:12,136 - root - INFO - 执行步骤打开浏览器成功
+2019-03-24 18:26:12,803 - root - INFO - 执行步骤访问被测试网址http://www.163.com成功
+2019-03-24 18:26:13,998 - root - INFO - 执行步骤最大化窗口成功
+2019-03-24 18:26:19,063 - root - INFO - 执行步骤等待163邮箱登录主页加载完成成功
+2019-03-24 18:26:19,141 - root - INFO - 执行步骤显示等待id属性值为x-URS-iframe的frame框的出现，然后切换进入该frame框中成功
+2019-03-24 18:26:19,255 - root - INFO - 执行步骤输入登录用户名成功
+2019-03-24 18:26:19,388 - root - INFO - 执行步骤输入登录密码成功
+2019-03-24 18:26:19,539 - root - INFO - 执行步骤单击登录按钮成功
+2019-03-24 18:26:24,593 - root - INFO - 执行步骤等待163邮箱登录主页加载完成成功
+2019-03-24 18:26:24,688 - root - INFO - 执行步骤切回默认会话窗口成功
+2019-03-24 18:26:25,387 - root - INFO - 执行步骤断言登录成功后的页面标题是否包含“网易邮箱6.0版”关键字内容成功
+2019-03-24 18:26:25,449 - root - INFO - 用例登录163邮箱执行通过
+2019-03-24 18:26:25,500 - root - INFO - ----------创建联系人
+2019-03-24 18:26:25,500 - root - INFO - ***********调用数据驱动************
+2019-03-24 18:26:25,501 - root - INFO - 开始添加联系人602208333@qq.com
+2019-03-24 18:26:25,578 - root - INFO - 执行步骤单击“通讯录”链接，进入通讯录页面成功
+2019-03-24 18:26:26,217 - root - INFO - 执行步骤显示等待“新建联系人”按钮在页面上可见成功
+2019-03-24 18:26:26,326 - root - INFO - 执行步骤单击“新建联系人”按钮成功
+2019-03-24 18:26:26,348 - root - INFO - 执行步骤现实等待输入联系人姓名框是否在页面上成功
+2019-03-24 18:26:26,418 - root - INFO - 执行步骤输入联系人姓名成功
+2019-03-24 18:26:26,623 - root - INFO - 执行步骤输入电子邮箱成功
+2019-03-24 18:26:26,684 - root - INFO - 执行步骤设为星标联系人成功
+2019-03-24 18:26:26,805 - root - INFO - 执行步骤输入手机号成功
+2019-03-24 18:26:26,853 - root - INFO - 执行步骤输入联系人备注信息成功
+2019-03-24 18:26:26,917 - root - INFO - 执行步骤单击确认按钮保存联系人成功
+2019-03-24 18:26:28,919 - root - INFO - 执行步骤等待2秒成功
+2019-03-24 18:26:28,962 - root - ERROR - 执行步骤断言联系人是否添加成功发生异常
+2019-03-24 18:26:28,964 - root - ERROR - None
+2019-03-24 18:26:29,026 - root - INFO - 开始添加联系人602208333@qq.com
+2019-03-24 18:26:29,062 - root - INFO - 执行步骤单击“通讯录”链接，进入通讯录页面成功
+2019-03-24 18:26:29,071 - root - INFO - 执行步骤显示等待“新建联系人”按钮在页面上可见成功
+2019-03-24 18:26:29,119 - root - INFO - 执行步骤单击“新建联系人”按钮成功
+2019-03-24 18:26:29,135 - root - INFO - 执行步骤现实等待输入联系人姓名框是否在页面上成功
+2019-03-24 18:26:29,235 - root - INFO - 执行步骤输入联系人姓名成功
+2019-03-24 18:26:29,402 - root - INFO - 执行步骤输入电子邮箱成功
+2019-03-24 18:26:29,403 - root - INFO - 执行步骤设为星标联系人成功
+2019-03-24 18:26:29,504 - root - INFO - 执行步骤输入手机号成功
+2019-03-24 18:26:29,546 - root - INFO - 执行步骤输入联系人备注信息成功
+2019-03-24 18:26:29,594 - root - INFO - 执行步骤单击确认按钮保存联系人成功
+2019-03-24 18:26:31,596 - root - INFO - 执行步骤等待2秒成功
+2019-03-24 18:26:31,642 - root - ERROR - 执行步骤断言联系人是否添加成功发生异常
+2019-03-24 18:26:31,644 - root - ERROR - None
+2019-03-24 18:26:31,739 - root - INFO - 用例添加联系人执行失败
+2019-03-24 18:26:31,800 - root - INFO - 共2条用例，2条需要被执行，成功执行1条
